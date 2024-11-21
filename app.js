@@ -137,7 +137,7 @@ function createItem(id,num) {
   var artwhole = document.createElement("div");
             artwhole.className = 'artwhole';
             artwhole.onclick = function() {
-              loadPage(type,num);
+              loadPage(num);
             };
 
   var Art = document.createElement("img");
