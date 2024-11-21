@@ -201,6 +201,7 @@ embed.example {
 
 #gimage {
     max-height: 30vw;
+    min-width: 200%;
 }
 
 #gtitle {
