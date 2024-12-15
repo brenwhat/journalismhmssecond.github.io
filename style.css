@@ -57,7 +57,7 @@
 .dropdown .dropcontent {
     display: none;
     position: absolute;
-    z-index: 99;
+    z-index: 2;
 }
 
 #indexBody {
@@ -96,7 +96,7 @@
 div.sticky{
     position: sticky;
     top: 0px;
-    z-index: 100;
+    z-index: 3;
 }
 
 div.thinBody {
@@ -186,22 +186,17 @@ p.title {
 }
 
 .gallerycategory {
-    width: 100%;
+    width: fit-content;
     overflow: auto;
     
-    margin-left: 2vw;
-    margin-right: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 embed.example {
     width: 10rem;
     padding-top: 2rem;
     cursor: pointer;
-}
-
-#gimage {
-    max-height: 30vw;
-    min-width: 60%;
 }
 
 #gtitle {
@@ -249,16 +244,44 @@ embed.example {
 }
 
 #gimagediv {
+    display: flex;
+
     grid-column: 1;
+    width: 30vw;
+    height: 30vw;
     padding-left: auto;
     padding-right: auto;
+    background-color: hsla(0, 0%, 0%, 0.055);
+    overflow: hidden;
+}
+
+#gimage {
+    align-self: center;
+    max-width: 30vw;
+    max-height: 30vw;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+#gimagediv:hover {
+    cursor: pointer;
 }
 
 #ginfodiv {
     grid-column: 2;
+    grid-row: 1;
+    padding-left: auto;
+    padding-right: none;
+    width: 40vw;
+}
+
+#gbuttondiv {
+    height: fit-content;
+    grid-column: 1;
+    grid-row: 2;
     padding-left: auto;
     padding-right: auto;
-    width: 40vw;
 }
 
 #filterdiv {
@@ -285,14 +308,83 @@ embed.example {
     padding-right: 1rem;
 }
 
-@media screen and (max-width: 950px) {
+#actionbuttongallery img{
+    color: gray;
+    margin-top: 0.5rem;
+    width: 11%;
+    height: 11%;
+}
+
+#actionbuttongallery img:hover {
+    cursor: pointer;
+    color: darkgray;
+}
+
+#expanddiv {
+    background-color: hsla(0, 0%, 0%, 0.89);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+}
+
+#expandingholder {
+    text-align: center;
+    margin: auto;
+    width: 45vw; 
+    height: 45vw;
+    background-color: transparent; 
+    display: flex;
+    overflow: auto;
+}
+
+#expandimage {
+    width: max-content; 
+    max-width: 100%; 
+    height: fit-content; 
+    max-height: 100%; 
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
     #ginfodiv {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 3;
         width: 60vw;
     }
     #gimage {
-        min-height: 60vw;
+        max-width: 70vw;
+        max-height: 70vw;
+    }
+    #gimagediv {
+        width: 70vw;
+        height: 70vw;
+    }
+    #expandingholder {
+        width: 85vw; 
+        height: 85vw;
+    }
+
+    #gtitle {
+        font-size: 5vw;
+    }
+    #gauthor {
+        font-size: 3vw;
+    }
+    #gcategory {
+        font-size: 2.5vw;
+    }
+    #gcaption {
+        font-size: 2.5vw;
+    }
+
+    #actionbuttongallery{
+        scale: 1;
     }
 }
 
@@ -309,10 +401,32 @@ embed.example {
     }
 }
 
+@media screen and (max-width: 650px) {
+    #gtitle {
+        font-size: 7vw;
+    }
+    #gauthor {
+        font-size: 5vw;
+    }
+    #gcategory {
+        font-size: 4vw;
+    }
+    #gcaption {
+        font-size: 3vw;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .navbar ul {
         padding: 0;
         justify-content: center;
+    }
+
+    #gcategory {
+        font-size: 5vw;
+    }
+    #gcaption {
+        font-size: 4.5vw;
     }
 }
     
