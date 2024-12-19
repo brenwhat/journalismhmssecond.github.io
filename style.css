@@ -66,14 +66,13 @@
 }
 
 .navbar ul{
-    width: 100%;
+    padding: 0px;
+    padding-left: 1rem;
+    width: auto;
     list-style-type: none;
     background-color: rgb(247, 71, 71);
-    padding: 0px;
     margin: 0px;
     overflow: hidden;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 .navbar a{
     font-family: "Roboto Flex";
@@ -203,19 +202,19 @@ embed.example {
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 1rem;
-    font-size: xxx-large;
+    font-size: 3vw;
 }
 
 #gauthor {
     padding-top: 2%;
     padding-bottom: 0;
-    font-size: xx-large;
+    font-size: 2vw;
 }
 
 #gcaption {
     padding-top: 5%;
     padding-bottom: 0;
-    font-size: x-large;
+    font-size: 1.5vw;
     word-wrap: break-word;
     color: darkgray;
 }
@@ -223,7 +222,7 @@ embed.example {
 #gcategory {
     padding-top: 7%;
     padding-bottom: 0;
-    font-size: x-large;
+    font-size: 1.5vw;
     word-wrap: break-word;
     color: darkgray;
 }
@@ -238,8 +237,6 @@ embed.example {
     width: 90vw;
     display: grid;
     justify-content: center;
-    border-left: solid gray;
-    border-right: solid gray;
     overflow: hidden;
 }
 
@@ -247,8 +244,8 @@ embed.example {
     display: flex;
 
     grid-column: 1;
-    width: 30vw;
-    height: 30vw;
+    width: 40vw;
+    height: 40vw;
     padding-left: auto;
     padding-right: auto;
     background-color: hsla(0, 0%, 0%, 0.055);
@@ -257,8 +254,8 @@ embed.example {
 
 #gimage {
     align-self: center;
-    max-width: 30vw;
-    max-height: 30vw;
+    max-width: 40vw;
+    max-height: 40vw;
     height: auto;
     width: auto;
     margin: 0 auto;
@@ -266,6 +263,7 @@ embed.example {
 
 #gimagediv:hover {
     cursor: pointer;
+    background-color: hsla(0, 0%, 0%, 0.09);
 }
 
 #ginfodiv {
@@ -337,7 +335,7 @@ embed.example {
     text-align: center;
     margin: auto;
     width: 45vw; 
-    height: 45vw;
+    height: 90vh;
     background-color: transparent; 
     display: flex;
     overflow: auto;
@@ -355,19 +353,21 @@ embed.example {
     #ginfodiv {
         grid-column: 1;
         grid-row: 3;
-        width: 60vw;
+        width: auto;
     }
     #gimage {
         max-width: 70vw;
         max-height: 70vw;
     }
     #gimagediv {
+        margin-left: auto;
+        margin-right: auto;
         width: 70vw;
         height: 70vw;
     }
     #expandingholder {
         width: 85vw; 
-        height: 85vw;
+        height: 85vh;
     }
 
     #gtitle {
@@ -377,10 +377,10 @@ embed.example {
         font-size: 3vw;
     }
     #gcategory {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
     #gcaption {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
 
     #actionbuttongallery{
@@ -409,10 +409,10 @@ embed.example {
         font-size: 5vw;
     }
     #gcategory {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     #gcaption {
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
 }
 
@@ -420,13 +420,6 @@ embed.example {
     .navbar ul {
         padding: 0;
         justify-content: center;
-    }
-
-    #gcategory {
-        font-size: 5vw;
-    }
-    #gcaption {
-        font-size: 4.5vw;
     }
 }
     
