@@ -15,7 +15,10 @@ const categories = {
 // gallery 0 is for art, gallery 1 is for text
 
 const Gallery = {
-    1: { gallery: 0, title: 'test title', author: 'a real person', grade: "6", category : 1, caption : "hey this is a demo caption just to see how itd look la tee ta tee ta tis i ajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkf", imageURL: "./workTypes/Myrabel2.jpg", coverImage: "./workTypes/Myrabel2.jpg"},
+    1: { gallery: 0, title: 'Untitled 1', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel.jpg", coverImage: "./workTypes/Myrabel.jpg"},
+    2: { gallery: 0, title: 'Untitled 2', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel2.jpg", coverImage: "./workTypes/Myrabel2.jpg"},
+    3: { gallery: 0, title: 'Untitled 3', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah.jpg", coverImage: "./workTypes/Sarah.jpg"},
+    4: { gallery: 0, title: 'Untitled 4', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah2.jpg", coverImage: "./workTypes/Sarah2.jpg"},
 };
 
 function galleryRefresh() {
