@@ -15,13 +15,7 @@ const categories = {
 // gallery 0 is for art, gallery 1 is for text
 
 const Gallery = {
-    1: { gallery: 0, title: 'wow im a cool title', author: 'Skibidi Toilet', grade: "6", category : 1, caption : "hey this is a demo caption just to see how itd look la tee ta tee ta tis i ajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkf", imageURL: "./workTypes/Myrabel2.pdf", coverImage: "./workTypes/Myrabel2.pdf"},
-    2: { gallery: 0, title: 'very unique title', author: 'Name One & Name Two', grade: "7 & 8", category : 1, caption : "hey this is a demo caption just to see how itd look", imageURL: "./workTypes/dababy.jpg", coverImage: "./workTypes/dababy.jpg"},
-    3: { gallery: 0, title: 'nice art', author: 'I have an uncessarily long name', grade: "8", category : 2, caption : "hey this is a demo caption just to see how itd look", imageURL: "./workTypes/550pixels.jpg", coverImage: "./workTypes/fatdog.jpg"},
-    4: { gallery: 0, title: 'egwin my beloved', author: 'Daghan', grade: "6", category : 3, caption : "this is my egwin hes very cool and this caption is also very cool. also hes a test for cover images being different", imageURL: "./workTypes/RYANGOSLING.jpg", coverImage: "./workTypes/squaresquirrel.jpg"},
-    5: { gallery: 0, title: 'egwin my beloved', author: 'Daghan', grade: "6", category : 4, caption : "this is my egwin hes very cool and this caption is also very cool. also hes a test for cover images being different", imageURL: "./workTypes/hunterwallpaper2.png", coverImage: "./workTypes/RYANGOSLING.jpg"},
-    6: { gallery: 1, title: 'Example Text 1', author: 'Brennan Wong', grade: "8", category : 3, caption : "this is a short bit of text made to fill space and see how a text would look in the website.", imageURL: "./workTypes/exampletext1.pdf", coverImage: "./workTypes/dopecoverimage1.jpg"},
-    7: { gallery: 1, title: 'Example Text 2', author: 'Real Person', grade: "6", category : 3, caption : "this is a short bit of text made to fill space and see how a text would look in the website. but this time i lengthened it for more pages", imageURL: "./workTypes/longerexampletext.pdf", coverImage: "./workTypes/dopecoverimage2.jpg"},
+    1: { gallery: 0, title: 'test title', author: 'Skibidi Toilet', grade: "6", category : 1, caption : "hey this is a demo caption just to see how itd look la tee ta tee ta tis i ajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkf", imageURL: "./workTypes/Myrabel2.pdf", coverImage: "./workTypes/Myrabel2.pdf"},
 };
 
 function galleryRefresh() {
