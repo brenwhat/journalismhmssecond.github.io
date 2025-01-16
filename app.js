@@ -15,7 +15,7 @@ const categories = {
 // gallery 0 is for art, gallery 1 is for text
 
 const Gallery = {
-    1: { gallery: 0, title: 'test title', author: 'Skibidi Toilet', grade: "6", category : 1, caption : "hey this is a demo caption just to see how itd look la tee ta tee ta tis i ajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkf", imageURL: "./workTypes/Myrabel2.pdf", coverImage: "./workTypes/Myrabel2.pdf"},
+    1: { gallery: 0, title: 'test title', author: 'Skibidi Toilet', grade: "6", category : 1, caption : "hey this is a demo caption just to see how itd look la tee ta tee ta tis i ajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkfajklsdfjlkasdljkf", imageURL: "./workTypes/Myrabel2.jpg", coverImage: "./workTypes/Myrabel2.jpg"},
 };
 
 function galleryRefresh() {
