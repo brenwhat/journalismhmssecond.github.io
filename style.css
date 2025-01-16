@@ -215,7 +215,7 @@ embed.example {
     padding-top: 5%;
     padding-bottom: 0;
     font-size: 1.5vw;
-    word-wrap: break-word;
+    word-wrap: normal;
     color: darkgray;
 }
 
@@ -275,7 +275,7 @@ embed.example {
 }
 
 #gbuttondiv {
-    height: fit-content;
+    width: 40vw;
     grid-column: 1;
     grid-row: 2;
     padding-left: auto;
@@ -291,26 +291,17 @@ embed.example {
     margin-bottom: auto;
 }
 
-#filters {
-    margin-left: 0;
-    font-family: "Roboto Flex";
-    font-size: x-large; 
-    max-width: fit-content;
-    min-height: 40px;
-    background-color: hsl(0, 0%, 87%); 
-    color: hsl(0, 0%, 33%);
-    border-radius: 25px; 
-    padding: 0;
-    padding-top: 1%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+#actionbuttongallery {
+    height: 45px;
+    width: 45px;
+    margin: 0;
 }
 
 #actionbuttongallery img{
     color: gray;
     margin-top: 0.5rem;
-    width: 11%;
-    height: 11%;
+    width: 45px;
+    height: 45px;
 }
 
 #actionbuttongallery img:hover {
@@ -335,7 +326,7 @@ embed.example {
     text-align: center;
     margin: auto;
     width: 45vw; 
-    height: 90vh;
+    height: 45vw;
     background-color: transparent; 
     display: flex;
     overflow: auto;
@@ -367,7 +358,7 @@ embed.example {
     }
     #expandingholder {
         width: 85vw; 
-        height: 85vh;
+        height: 85vw;
     }
 
     #gtitle {
@@ -382,10 +373,6 @@ embed.example {
     #gcaption {
         font-size: 2.7vw;
     }
-
-    #actionbuttongallery{
-        scale: 1;
-    }
 }
 
 @media screen and (max-width: 800px) {
@@ -396,12 +383,18 @@ embed.example {
         margin-bottom: 1rem;
         margin-left: 3vw;
     }
-    #filters {
+    #allcategories {
+        margin-left: 3vw;
+    }
+    #allcategories {
         margin-left: 3vw;
     }
 }
 
 @media screen and (max-width: 650px) {
+    #gimagediv {
+        width: 90%;
+    }
     #gtitle {
         font-size: 7vw;
     }
@@ -412,7 +405,7 @@ embed.example {
         font-size: 4.5vw;
     }
     #gcaption {
-        font-size: xx-large;
+        font-size: 16px;
     }
 }
 
