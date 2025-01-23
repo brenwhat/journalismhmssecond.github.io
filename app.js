@@ -19,6 +19,9 @@ const Gallery = {
     2: { gallery: 0, title: 'Untitled 2', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel2.jpg", coverImage: "./workTypes/Myrabel2.jpg"},
     3: { gallery: 0, title: 'Untitled 3', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah.jpg", coverImage: "./workTypes/Sarah.jpg"},
     4: { gallery: 0, title: 'Untitled 4', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah2.jpg", coverImage: "./workTypes/Sarah2.jpg"},
+    5: { gallery: 1, title: 'Crazanity', author: 'Maddie Cooper', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Maddie.pdf", coverImage: "./workTypes/Maddie.pdf"},
+    6: { gallery: 1, title: 'Thanksgiving', author: 'Ellie Ho', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Ellie.pdf", coverImage: "./workTypes/Ellie.pdf"},
+    7: { gallery: 1, title: 'Summer Break', author: 'Tamari Philosof', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Tamari.pdf", coverImage: "./workTypes/Tamari.pdf"},
 };
 
 function galleryRefresh() {
