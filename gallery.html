@@ -19,24 +19,25 @@
 </head>
 <body style="margin: 0;" onload="galleryRefresh();">
     <div>
-        <h1 style="font-size: 5rem; padding-left: 2rem; font-weight: 300;">HMS</h1>
+        <h1 style="font-size: 5rem; padding-left: 2rem; font-weight: 300;">HMS Journalism</h1>
     </div>
 
-    <div class="sticky">
+    <div class="sticky" style="margin-bottom: 5%;">
         <nav class="navbar">
             <ul>
-                <li><a href="index.html">ART</a></li>
+                <li><a href="artgallery.html">ART</a></li>
                 <li><a href="textgallery.html">WRITING</a></li>
             </ul>
         </nav>
     </div>
 
-    <br><br><br><br>
 
     <div id="gallerydiv">
+
         <div id="innergdiv">
+
             <div id="gimagediv" onclick="document.getElementById('expanddiv').style.display = 'flex';">
-                <embed id="gimage" src="workTypes/images/whiteholder.jpg">
+                <embed id="gimage" src="workTypes/whiteholder.jpg">
             </div>
 
             <div id="gbuttondiv">
@@ -58,11 +59,21 @@
 
     <div id="expanddiv" onclick="document.getElementById('expanddiv').style.display = 'none';">
         <div id="expandingholder">
-        <embed id="expandimage" src="workTypes/images/whiteholder.jpg">
+        <embed id="expandimage" src="workTypes/whiteholder.jpg">
         </div>
     </div>
 
-    <br><br><br><br><br><br><br><br>
+    <div id="textinfodiv">
+        <p id="gcategory" style="padding-top: 2rem; font-size: 1.7vw;">category</p>
+        <p id="gtitle" style="font-size: 5vw;">title</p>
+        <p id="gauthor" style="font-size: 3vw;">author</p>
+        <p id="gcaption" style="padding-top: 2rem; font-size: 1.7vw;">caption</p>
+    </div>
+    <hr style="margin: 5rem; height: 2px; background-color: darkgray; border: none;" id="texthr">
+
+    <div style="display: flex; justify-content: center; margin-bottom: 15%;">
+        <object id="textDisplay" class="pdf" data="workTypes/whiteholder.jpg" width="85%" height="1000vh">
+    </div>
 
     <script src="app.js"></script>
 </body>
