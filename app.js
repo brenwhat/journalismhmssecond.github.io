@@ -7,7 +7,7 @@ let cattext = "All Categories";
 
 const categories = {
   1 : "Category 1",
-  2 : "High or Low",
+  2 : "Category 2",
   3 : "Category 3",
   4 : "Category 4" 
 }
@@ -15,27 +15,27 @@ const categories = {
 // gallery 0 is for art, gallery 1 is for text
 
 const Gallery = {
-    1: { gallery: 0, title: 'Untitled 1', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel.jpg", coverImage: "./workTypes/Myrabel.jpg"},
-    2: { gallery: 0, title: 'Untitled 2', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel2.jpg", coverImage: "./workTypes/Myrabel2.jpg"},
-    3: { gallery: 0, title: 'Untitled 3', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah.jpg", coverImage: "./workTypes/Sarah.jpg"},
-    4: { gallery: 0, title: 'Untitled 4', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah2.jpg", coverImage: "./workTypes/Sarah2.jpg"},
-    5: { gallery: 1, title: 'Crazanity', author: 'Maddie Cooper', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Maddie.pdf", coverImage: "./workTypes/Maddie.pdf"},
-    6: { gallery: 1, title: 'Thanksgiving', author: 'Ellie Ho', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Ellie.pdf", coverImage: "./workTypes/Ellie.pdf"},
-    7: { gallery: 1, title: 'Summer Break', author: 'Tamari Philosof', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Tamari.pdf", coverImage: "./workTypes/Tamari.pdf"},
-    8: { gallery: 1, title: 'A Chill Wind', author: 'Zachary Cheng', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Zach.pdf", coverImage: "./workTypes/Zach.pdf"},
-    9: { gallery: 1, title: 'The Rink', author: 'Will Weitzenfeld', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Will.pdf", coverImage: "./workTypes/Will.pdf"},
-    10: { gallery: 1, title: 'White Flag', author: 'Torrance Li', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Torrance.pdf", coverImage: "./workTypes/Torrance.pdf"},
-    11: { gallery: 1, title: 'London Hell is Breaking Loose', author: 'Rami Daoud', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Rami.pdf", coverImage: "./workTypes/Rami.pdf"},
-    12: { gallery: 1, title: 'Goooaaalll!', author: 'Quinn McReynolds', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Quinn.pdf", coverImage: "./workTypes/Quinn.pdf"},
-    13: { gallery: 1, title: 'Ramen 101', author: 'Princeton Lee', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Princeton.pdf", coverImage: "./workTypes/Princeton.pdf"},
-    14: { gallery: 1, title: 'Happy', author: 'Olivia Sanchez', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Olivia.pdf", coverImage: "./workTypes/Olivia.pdf"},
-    15: { gallery: 1, title: 'Thanksgiving Break', author: 'Juliet Repstad', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Juliet.pdf", coverImage: "./workTypes/Juliet.pdf"},
-    16: { gallery: 1, title: 'Free Fallin', author: 'Jonathan Hughes', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Jon.pdf", coverImage: "./workTypes/Jon.pdf"},
-    17: { gallery: 1, title: 'Meal of the Day', author: 'Jack Kang', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Jack.pdf", coverImage: "./workTypes/Jack.pdf"},
-    18: { gallery: 1, title: 'Thanksgiving', author: 'Hanna Tang', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Hanna.pdf", coverImage: "./workTypes/Hanna.pdf"},
-    19: { gallery: 1, title: 'The Market', author: 'Ethan Negroe', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Ethan.pdf", coverImage: "./workTypes/Ethan.pdf"},
-    20: { gallery: 1, title: 'Thanksgiving', author: 'Erin Sagkan', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Erin.pdf", coverImage: "./workTypes/Erin.pdf"},
-    21: { gallery: 1, title: 'Thanksgiving Break', author: 'Anson Loo', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Anson.pdf", coverImage: "./workTypes/Anson.pdf"},
+  1: { gallery: 0, title: 'Untitled 1', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel.jpg", coverImage: "./workTypes/Myrabel.jpg"},
+  2: { gallery: 0, title: 'Untitled 2', author: 'Myrabelle Kuo', grade: "8", category : 1, caption : "", imageURL: "./workTypes/Myrabel2.jpg", coverImage: "./workTypes/Myrabel2.jpg"},
+  3: { gallery: 0, title: 'Untitled 3', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah.jpg", coverImage: "./workTypes/Sarah.jpg"},
+  4: { gallery: 0, title: 'Untitled 4', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah2.jpg", coverImage: "./workTypes/Sarah2.jpg"},
+  5: { gallery: 1, title: 'Crazanity', author: 'Maddie Cooper', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Maddie.pdf", coverImage: "./workTypes/Maddie.pdf"},
+  6: { gallery: 1, title: 'Thanksgiving', author: 'Ellie Ho', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Ellie.pdf", coverImage: "./workTypes/Ellie.pdf"},
+  7: { gallery: 1, title: 'Summer Break', author: 'Tamari Philosof', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Tamari.pdf", coverImage: "./workTypes/Tamari.pdf"},
+  8: { gallery: 1, title: 'A Chill Wind', author: 'Zachary Cheng', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Zach.pdf", coverImage: "./workTypes/Zach.pdf"},
+  9: { gallery: 1, title: 'The Rink', author: 'Will Weitzenfeld', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Will.pdf", coverImage: "./workTypes/Will.pdf"},
+  10: { gallery: 1, title: 'White Flag', author: 'Torrance Li', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Torrance.pdf", coverImage: "./workTypes/Torrance.pdf"},
+  11: { gallery: 1, title: 'London Hell is Breaking Loose', author: 'Rami Daoud', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Rami.pdf", coverImage: "./workTypes/Rami.pdf"},
+  12: { gallery: 1, title: 'Goooaaalll!', author: 'Quinn McReynolds', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Quinn.pdf", coverImage: "./workTypes/Quinn.pdf"},
+  13: { gallery: 1, title: 'Ramen 101', author: 'Princeton Lee', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Princeton.pdf", coverImage: "./workTypes/Princeton.pdf"},
+  14: { gallery: 1, title: 'Happy', author: 'Olivia Sanchez', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Olivia.pdf", coverImage: "./workTypes/Olivia.pdf"},
+  15: { gallery: 1, title: 'Thanksgiving Break', author: 'Juliet Repstad', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Juliet.pdf", coverImage: "./workTypes/Juliet.pdf"},
+  16: { gallery: 1, title: 'Free Fallin', author: 'Jonathan Hughes', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Jon.pdf", coverImage: "./workTypes/Jon.pdf"},
+  17: { gallery: 1, title: 'Meal of the Day', author: 'Jack Kang', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Jack.pdf", coverImage: "./workTypes/Jack.pdf"},
+  18: { gallery: 1, title: 'Thanksgiving', author: 'Hanna Tang', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Hanna.pdf", coverImage: "./workTypes/Hanna.pdf"},
+  19: { gallery: 1, title: 'The Market', author: 'Ethan Negroe', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Ethan.pdf", coverImage: "./workTypes/Ethan.pdf"},
+  20: { gallery: 1, title: 'Thanksgiving', author: 'Erin Sagkan', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Erin.pdf", coverImage: "./workTypes/Erin.pdf"},
+  21: { gallery: 1, title: 'Thanksgiving Break', author: 'Anson Loo', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Anson.pdf", coverImage: "./workTypes/Anson.pdf"},
 };
 
 function galleryRefresh() {
@@ -47,24 +47,23 @@ function galleryRefresh() {
   let id = url.slice((idLength * -1) + 1);
   console.log(id);
 
-  document.getElementById("gimage").src = Gallery[id].imageURL  + '#toolbar=0';
+  if (Gallery[id].gallery == 0) {
+    document.getElementById("gimage").src = Gallery[id].imageURL  + '#toolbar=0';
+    document.getElementById("expandimage").src = Gallery[id].imageURL  + '#toolbar=0';
+    document.getElementById("textinfodiv").remove()
+    document.getElementById("texthr").remove()
+  } 
+  else if (Gallery[id].gallery == 1) {
+    document.getElementById("textDisplay").data = Gallery[id].imageURL + '#view=FitH&toolbar=0';
+    document.getElementById("gimagediv").remove()
+    document.getElementById("actionbuttongallery").remove()
+    document.getElementById("ginfodiv").remove()
+  };
+
   document.getElementById("gtitle").innerHTML = Gallery[id].title;
   document.getElementById("gauthor").innerHTML = Gallery[id].author + ', Grade ' + Gallery[id].grade;
   document.getElementById("gcategory").innerHTML = categories[Gallery[id].category];
   document.getElementById("gcaption").innerHTML = Gallery[id].caption;
-  
-  document.getElementById("expandimage").src = Gallery[id].imageURL  + '#toolbar=0';
-
-  if (Gallery[id].gallery == 1) {
-    let gimg = document.getElementById("gimage");
-    let eimg = document.getElementById("expandimage");
-
-    gimg.style.height = "100%";
-    gimg.style.width = "100%";
-
-    eimg.style.height = "100%";
-    eimg.style.width = "100%";
-  };
 }
 
 function setData(type1, grade1, cat1) {
