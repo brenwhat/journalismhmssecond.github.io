@@ -136,11 +136,18 @@ function fillArtCategory(id) {
 
     console.log("No Art Found");
 
+    var newDiv = document.createElement("div");
+    newDiv.style.cssText = ("display: grid;")
+
     var missingText = document.createElement("p");
+    missingText.setAttribute("id","missingtext")
     missingText.innerHTML = "No Art Found!"
+    missingText.style.cssText = ("grid-row: 2; grid-column: 1;")
 
     var clearFilters = document.createElement("button");
+    clearFilters.setAttribute("id","clearfilters")
     clearFilters.innerHTML = "Reset Filters";
+    missingText.style.cssText = ("grid-row: 1; grid-column: 1;")
     clearFilters.onclick = function() {
       setData(type,0,0);
 
@@ -148,8 +155,9 @@ function fillArtCategory(id) {
       missingText.remove();
     }
 
-    holder.appendChild(missingText);
-    holder.appendChild(clearFilters);
+    holder.appendChild(newDiv);
+    newDiv.appendChild(missingText);
+    newDiv.appendChild(clearFilters);
   };
 };
 
