@@ -36,6 +36,10 @@ const Gallery = {
   19: { gallery: 1, title: 'The Market', author: 'Ethan Negroe', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Ethan.pdf", coverImage: "./workTypes/Ethan.pdf"},
   20: { gallery: 1, title: 'Thanksgiving', author: 'Erin Sagkan', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Erin.pdf", coverImage: "./workTypes/Erin.pdf"},
   21: { gallery: 1, title: 'Thanksgiving Break', author: 'Anson Loo', grade: "8", category : 2, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Anson.pdf", coverImage: "./workTypes/Anson.pdf"},
+  22: { gallery: 0, title: 'Untitled 5', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah3.jpg", coverImage: "./workTypes/Sarah3.jpg"},
+  23: { gallery: 0, title: 'Untitled 6', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah4.jpg", coverImage: "./workTypes/Sarah4.jpg"},
+  24: { gallery: 0, title: 'Untitled 7', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah5.jpg", coverImage: "./workTypes/Sarah5.jpg"},
+  25: { gallery: 0, title: 'Untitled 3', author: 'Sarah Blinchik', grade: "7", category : 1, caption : "", imageURL: "./workTypes/Sarah6.jpg", coverImage: "./workTypes/Sarah6.jpg"},
 };
 
 function galleryRefresh() {
