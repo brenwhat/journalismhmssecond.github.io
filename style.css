@@ -348,6 +348,37 @@ embed.example {
     margin: auto;
 }
 
+#clearfilters {
+    position: relative;
+    width: max-content;
+    height: 3.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 79%);
+    color: hsl(0, 0%, 33%);
+    font-family: "Roboto Flex";
+    font-size: xx-large;
+
+    transition: border 100ms ease-out;
+    margin: auto;
+}
+
+#missingtext {
+    font-family: "Roboto Flex";
+    font-size: xxx-large;
+    font-weight: bolder;
+
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#clearfilters:hover {
+    border-color: hsl(0, 0%, 59%);   
+}
+
 @media screen and (max-width: 1000px) {
     #ginfodiv {
         grid-column: 1;
