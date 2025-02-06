@@ -136,6 +136,7 @@ p.desc {
 
 div.artwhole {
     width: 15rem;
+    height: auto;
     margin-top: auto;
     margin-bottom: auto;
     margin: 0.6rem;
