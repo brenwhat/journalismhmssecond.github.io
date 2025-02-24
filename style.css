@@ -341,10 +341,8 @@ embed.example {
 }
 
 #expandimage {
-    width: max-content; 
-    max-width: 100%; 
-    height: fit-content; 
-    max-height: 100%; 
+    width: 100%;
+    height:auto;
     margin: auto;
 }
 
