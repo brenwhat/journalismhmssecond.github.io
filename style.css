@@ -136,16 +136,14 @@ p.desc {
 
 div.artwhole {
     width: 15rem;
-    height: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 30rem;
     margin: 0.6rem;
     box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.349);
     cursor: pointer;
-    display: inline-block;
-
+    float: left;
     transition: transform 0.2s ease-out;
     border: 1px solid hsla(0, 0%, 0%, 0.315);
+    overflow: hidden;
 }
 
 div.artwhole:hover {
