@@ -135,7 +135,7 @@ p.desc {
 }
 
 div.artwhole {
-    width: 17rem;
+    width: 15rem;
     height: 30rem;
     margin: 0.6rem;
     box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.349);
@@ -150,6 +150,7 @@ div.artwhole:hover {
     transform: scale(0.995);
     border-color: gray;
     box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.349);
+    overflow: visible;
 }
 
 a {
@@ -180,7 +181,7 @@ p.title {
     margin-bottom: 1%;
     margin-right: 5.5%;
     padding-bottom: 0;
-    font-size:150%;
+    font-size:160%;
 }
 
 .gallerycategory {
