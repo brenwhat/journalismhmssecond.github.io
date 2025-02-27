@@ -174,7 +174,7 @@ function fillArtCategory(id) {
 
     var missingText = document.createElement("p");
     missingText.setAttribute("id","missingtext")
-    missingText.innerHTML = "No Art Found!"
+    missingText.innerHTML = "No Work Found!"
     missingText.style.cssText = ("grid-row: 2; grid-column: 1;")
 
     var clearFilters = document.createElement("button");
@@ -182,7 +182,7 @@ function fillArtCategory(id) {
     clearFilters.innerHTML = "Reset Filters";
     missingText.style.cssText = ("grid-row: 1; grid-column: 1;")
     clearFilters.onclick = function() {
-      setData(type,0,0);
+      setData(-1,0,0);
 
       clearFilters.remove();
       missingText.remove();
