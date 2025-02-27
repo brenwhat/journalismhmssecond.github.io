@@ -67,7 +67,7 @@ const Gallery = {
   50: { gallery: 1, title: 'Saturn 5 Rocket', author: 'Augustine Wasef', grade: "7", category : 2, caption : "", imageURL: "./workTypes/AugustineOped.pdf", coverImage: "./workTypes/writingimage.jpg"},
   51: { gallery: 1, title: 'The Eternal Purgatory of Charles Darwin Freehill', author: 'Arjun Kesavalu', grade: "8", category : 4, caption : "", imageURL: "./workTypes/ArjunFiction.pdf", coverImage: "./workTypes/writingimage.jpg"},
   52: { gallery: 1, title: 'The Terracotta Show', author: 'Arjun Kesavalu', grade: "8", category : 4, caption : "", imageURL: "./workTypes/ArjunFiction2.pdf", coverImage: "./workTypes/writingimage.jpg"},
-  53: { gallery: 0, title: 'Untitled', author: 'Ally Peak', grade: "8", category : 2, caption : "", imageURL: "./workTypes/AllyArt.jpg", coverImage: "./workTypes/AllyArt.jpg"},
+  53: { gallery: 0, title: 'Untitled', author: 'Ally Peak', grade: "8", category : 3, caption : "", imageURL: "./workTypes/AllyArt.jpg", coverImage: "./workTypes/AllyArt.jpg"},
   
 };
 
