@@ -124,11 +124,6 @@ function setData(type1, grade1, cat1) {
 
   categorytext.innerHTML = (cattext + '<i class="fa-solid fa-bars" style="margin-left: 0.7rem; margin-right: 0.7rem;"></i>')
   grtext.innerHTML = (gradetext  + '<i class="fa-solid fa-bars" style="margin-left: 0.7rem; margin-right: 0.7rem;"></i>')
-
-  const mtv = document.getElementById("missingtextdiv");
-  if (mtv) {
-    mtv.remove();
-  }
   
   galleryDelete();
 }
