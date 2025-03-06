@@ -124,6 +124,11 @@ function setData(type1, grade1, cat1) {
 
   categorytext.innerHTML = (cattext + '<i class="fa-solid fa-bars" style="margin-left: 0.7rem; margin-right: 0.7rem;"></i>')
   grtext.innerHTML = (gradetext  + '<i class="fa-solid fa-bars" style="margin-left: 0.7rem; margin-right: 0.7rem;"></i>')
+  
+  let holder = document.getElementById("missingtextdiv");
+  if (holder) {
+    holder.remove();
+  }
   galleryDelete();
 }
 
@@ -170,23 +175,23 @@ function fillArtCategory(id) {
     console.log("No Art Found");
 
     var newDiv = document.createElement("div");
-    newDiv.style.cssText = ("display: grid;")
+    newDiv.setAttribute("id","missingtextdiv");
+    newDiv.style.cssText = ("display: grid;");
 
     var missingText = document.createElement("p");
-    missingText.setAttribute("id","missingtext")
-    missingText.innerHTML = "No Work Found!"
-    missingText.style.cssText = ("grid-row: 2; grid-column: 1;")
+    missingText.setAttribute("id","missingtext");
+    missingText.innerHTML = "No Work Found!";
+    missingText.style.cssText = ("grid-row: 2; grid-column: 1;");
 
     var clearFilters = document.createElement("button");
     clearFilters.setAttribute("id","clearfilters")
     clearFilters.innerHTML = "Reset Filters";
-    missingText.style.cssText = ("grid-row: 1; grid-column: 1;")
+    missingText.style.cssText = ("grid-row: 1; grid-column: 1;");
     clearFilters.onclick = function() {
       setData(-1,0,0);
 
       clearFilters.remove();
       missingText.remove();
-      newDiv.remove();
     }
 
     holder.appendChild(newDiv);
@@ -221,7 +226,6 @@ function createItem(id,num) {
   author.className = "author";
   author.innerHTML = (Gallery[num].author + ", Grade " + Gallery[num].grade);
 
-  
   artwhole.appendChild(Art);
   artwhole.appendChild(captionback);
   captionback.appendChild(title);
