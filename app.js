@@ -189,10 +189,8 @@ function fillArtCategory(id) {
     missingText.style.cssText = ("grid-row: 1; grid-column: 1;");
     clearFilters.onclick = function() {
       setData(-1,0,0);
-
-      clearFilters.remove();
-      missingText.remove();
-    }
+      newDiv.remove();
+    };
 
     holder.appendChild(newDiv);
     newDiv.appendChild(missingText);
