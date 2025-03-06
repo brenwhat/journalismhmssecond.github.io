@@ -183,9 +183,10 @@ function fillArtCategory(id) {
     clearFilters.setAttribute("id","clearfilters")
     clearFilters.innerHTML = "Reset Filters";
     missingText.style.cssText = ("grid-row: 1; grid-column: 1;");
+    
     clearFilters.onclick = function() {
-      setData(-1,0,0);
       missingText.innerHTML = "Resetting Filters...";
+      setData(-1,0,0);
       newDiv.remove();
     };
 
