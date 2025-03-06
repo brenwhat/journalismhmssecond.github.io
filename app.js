@@ -186,6 +186,7 @@ function fillArtCategory(id) {
 
       clearFilters.remove();
       missingText.remove();
+      newDiv.remove();
     }
 
     holder.appendChild(newDiv);
