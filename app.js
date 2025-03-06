@@ -180,7 +180,7 @@ function fillArtCategory(id) {
     missingText.style.cssText = ("grid-row: 2; grid-column: 1;");
 
     var clearFilters = document.createElement("button");
-    clearFilters.setAttribute("id","clearfilters")
+    clearFilters.setAttribute("id","clearfilters");
     clearFilters.innerHTML = "Reset Filters";
     missingText.style.cssText = ("grid-row: 1; grid-column: 1;");
     
@@ -188,7 +188,7 @@ function fillArtCategory(id) {
       missingText.innerHTML = "Resetting Filters...";
       setData(-1,0,0);
       newDiv.remove();
-    };
+    }
 
     holder.appendChild(newDiv);
     newDiv.appendChild(missingText);
