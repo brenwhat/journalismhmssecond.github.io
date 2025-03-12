@@ -88,6 +88,7 @@ function galleryRefresh() {
   } 
   else if (Gallery[id].gallery == 1) {
     document.getElementById("textDisplay").data = Gallery[id].imageURL + '#view=FitH&toolbar=0';
+    document.getElementById("pdfSubstitute").href = Gallery[id].imageURL + '#view=FitH&toolbar=0';
     document.getElementById("gimagediv").remove()
     document.getElementById("actionbuttongallery").remove()
     document.getElementById("ginfodiv").remove()
