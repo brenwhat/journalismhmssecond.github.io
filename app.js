@@ -171,23 +171,22 @@ function fillArtCategory(id) {
     console.log("No Art Found");
 
     var newDiv = document.createElement("div");
-    newDiv.setAttribute("id","missingtextdiv");
-    newDiv.style.cssText = ("display: grid;");
+    newDiv.style.cssText = ("display: grid;")
 
     var missingText = document.createElement("p");
-    missingText.setAttribute("id","missingtext");
-    missingText.innerHTML = "No Work Found!";
-    missingText.style.cssText = ("grid-row: 2; grid-column: 1;");
+    missingText.setAttribute("id","missingtext")
+    missingText.innerHTML = "No Art Found!"
+    missingText.style.cssText = ("grid-row: 2; grid-column: 1;")
 
     var clearFilters = document.createElement("button");
-    clearFilters.setAttribute("id","clearfilters");
+    clearFilters.setAttribute("id","clearfilters")
     clearFilters.innerHTML = "Reset Filters";
-    missingText.style.cssText = ("grid-row: 1; grid-column: 1;");
-    
+    missingText.style.cssText = ("grid-row: 1; grid-column: 1;")
     clearFilters.onclick = function() {
-      missingText.innerHTML = "Resetting Filters...";
-      setData(-1,0,0);
-      newDiv.remove();
+      setData(type,0,0);
+
+      clearFilters.remove();
+      missingText.remove();
     }
 
     holder.appendChild(newDiv);
