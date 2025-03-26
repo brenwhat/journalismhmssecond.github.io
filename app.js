@@ -65,10 +65,9 @@ const Gallery = {
   48: { gallery: 1, title: 'Neigh', author: 'Rosie Chen', grade: "8", category : 1, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Rosie.pdf", coverImage: "./workTypes/writingimage.jpg"},
   49: { gallery: 1, title: 'Cheers', author: 'Samantha Rodriguez', grade: "8", category : 1, caption : "The idea that “the unexamined life is not worth living” is attributed to Socrates and embraced in a “high or low” essay, wherein students create a personal, non-fiction narrative that describes a recent event.", imageURL: "./workTypes/Samantha.pdf", coverImage: "./workTypes/writingimage.jpg"},
   50: { gallery: 1, title: 'Saturn 5 Rocket', author: 'Augustine Wasef', grade: "7", category : 2, caption : "", imageURL: "./workTypes/AugustineOped.pdf", coverImage: "./workTypes/writingimage.jpg"},
-  51: { gallery: 1, title: 'The Eternal Purgatory of Charles Darwin Freehill', author: 'Arjun Kesavalu', grade: "8", category : 4, caption : "", imageURL: "./workTypes/ArjunFiction.pdf", coverImage: "./workTypes/writingimage.jpg"},
-  52: { gallery: 1, title: 'The Terracotta Show', author: 'Arjun Kesavalu', grade: "8", category : 4, caption : "", imageURL: "./workTypes/ArjunFiction2.pdf", coverImage: "./workTypes/writingimage.jpg"},
-  53: { gallery: 0, title: 'Untitled', author: 'Ally Peak', grade: "8", category : 3, caption : "", imageURL: "./workTypes/AllyArt.png", coverImage: "./workTypes/AllyArt.png"},
-  
+  51: { gallery: 1, title: 'The Terracotta Show', author: 'Arjun Kesavalu', grade: "8", category : 4, caption : "", imageURL: "./workTypes/ArjunFiction2.pdf", coverImage: "./workTypes/writingimage.jpg"},
+  52: { gallery: 0, title: 'Untitled', author: 'Ally Peak', grade: "8", category : 3, caption : "", imageURL: "./workTypes/AllyArt.png", coverImage: "./workTypes/AllyArt.png"},
+  53: { gallery: 0, title: 'Untitled', author: 'Emma Hoang', grade: "7", category : 3, caption : "", imageURL: "./workTypes/EmmaHoang.png", coverImage: "./workTypes/EmmaHoang.png"},
 };
 
 function galleryRefresh() {
