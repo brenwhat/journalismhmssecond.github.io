@@ -69,7 +69,7 @@ const Gallery = {
   52: { gallery: 0, title: 'Untitled', author: 'Ally Peak', grade: "8", category : 3, caption : "", imageURL: "./workTypes/AllyArt.png", coverImage: "./workTypes/AllyArt.png"},
   53: { gallery: 0, title: 'Untitled', author: 'Emma Hoang', grade: "7", category : 3, caption : "", imageURL: "./workTypes/EmmaHoang.jpg", coverImage: "./workTypes/EmmaHoang.jpg"},
   54: { gallery: 0, title: 'Untitled', author: 'Ally Peak', grade: "8", category : 3, caption : "", imageURL: "./workTypes/allypeak.png", coverImage: "./workTypes/allypeak.png"},
-  55: { gallery: 1, title: 'Teenage Dream', author: 'Sofia Rasi O`Halloran', grade: "7", category : 2, caption : "", imageURL: "./workTypes/sofiarasi.pdf", coverImage: "./workTypes/writingimage.jpg"},
+  55: { gallery: 1, title: 'Teenage Dream', author: 'Sophia Rasi O`Halloran', grade: "7", category : 2, caption : "", imageURL: "./workTypes/sofiarasi.pdf", coverImage: "./workTypes/writingimage.jpg"},
 };
 
 function galleryRefresh() {
